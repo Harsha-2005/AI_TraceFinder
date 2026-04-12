@@ -231,17 +231,3 @@ shap.summary_plot(shap_values, X_test_scaled)
 pip install grad-cam torch torchvision
 ```
 
----
-
-## Evaluation Criteria Checklist
-
-- [x] Data collected and labeled (Supatlantique dataset)
-- [x] Feature engineering: PRNU + FFT + LBP
-- [x] Baseline ML: SVM + Random Forest
-- [x] UI: Upload → Predict → Download report
-- [x] Accuracy > 85% target (SVM on scanner-specific features)
-- [x] Confusion matrix visualization
-- [x] Feature importance chart
-- [x] Prediction history log
-- [x] Dark/light mode
-- [x] No GPU required
